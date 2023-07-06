@@ -4,12 +4,12 @@ import alphalens
 
 
 
-factorcgo=pd.read_excel('factordata.xlsx')
+factorcgo=pd.read_csv('factordata.csv')
 #factorcgo=pd.DataFrame(factorcgo)
 factorcgo=factorcgo.set_index(['tradedate','stockcode'])
 factorcgo['cgofactor'] = pd.to_numeric(factorcgo['cgofactor'],errors='coerce')
 
-price=pd.read_excel('pricedata.xlsx')
+price=pd.read_csv('pricedata.csv')
 price=pd.DataFrame(price)
 price=price.pivot(index='tradedate',columns='stockcode',values='closeprice')
 
