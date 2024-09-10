@@ -1,2 +1,1 @@
-# alphalens
-# 上传了cgo因子构建，alphalens回测cgo因子以及factor因子的代码；同时也包含对alphalens源代码进行小小修改后的utils和tears包代码
+# I have uploaded the code for constructing the CGO factor, backtesting the CGO and other factors using Alphalens, along with the modified utils and tears modules from the Alphalens source code. These modifications are minor but necessary for better compatibility and performance.
